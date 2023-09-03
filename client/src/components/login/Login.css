@@ -1,0 +1,193 @@
+.login-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e4d91;
+}
+
+.login-container {
+  /* border: 2px solid green; */
+  width: 27%;
+  height: 75%;
+  display: flex;
+  padding: 2rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1.5rem;
+  background-color: #fff;
+}
+
+.login-container2 {
+  /* border: 2px solid green; */
+  width: 27%;
+  height: 75%;
+  display: flex;
+  padding: 2rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1.5rem;
+  background-color: #fff;
+}
+
+.login_head {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  font-size: 1.8rem;
+}
+
+.login_form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 25rem;
+}
+
+.login_form_in {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login_label {
+  width: 100%;
+  height: 2rem;
+  font-weight: 540;
+  margin-top: 1rem;
+  /* border: 2px solid red; */
+}
+
+.login_input1 {
+  width: 100%;
+  height: 2.5rem;
+  padding: 1rem;
+  font-size: .99rem;
+  border: .1rem solid #dbdbdb;
+  border-radius: .4rem;
+  box-sizing: border-box;
+}
+
+.login_input2 {
+  width: 100%;
+  height: 2.5rem;
+  padding: 1rem 1rem;
+  /* font-size: 1.2rem; */
+  border: .1rem solid #dbdbdb;
+  border-radius: .4rem;
+  /* color: rgba(254, 254, 254, 255); */
+  /* text-align: center; */
+  box-sizing: border-box;
+
+}
+
+::-webkit-input-placeholder {
+  text-align: justify;
+}
+
+
+.login_form_rem {
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.login_form_rem_box {
+  /* border: 2px solid red; */
+  width: 1.3rem;
+  height: 1.3rem;
+  margin: 1rem 1rem 1rem 0;
+  cursor: pointer;
+}
+
+.login_form_rem_label {
+  /* color: #878c90; */
+}
+
+.login_form_rem_label2 {
+  color: red;
+  /* margin-left: 12vw; */
+  cursor: pointer;
+}
+
+.otp {
+  width: 100%;
+  height: 3rem;
+  background-color: #1e4d91;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: .2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.otp_input {
+  height: 2rem;
+  width: 30%;
+  border: none;
+  border-radius: .3rem;
+  padding-left: .4rem;
+}
+
+.otp_button {
+  height: 2rem;
+  width: 30%;
+  border: none;
+  border-radius: .3rem;
+  padding-left: .4rem;
+  cursor: pointer;
+}
+
+.otp_verify {
+  height: 2rem;
+  width: 30%;
+  border: none;
+  border-radius: .3rem;
+  padding-left: .4rem;
+  color: red;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login_form_login {
+  width: 100%;
+  height: 3rem;
+  background-color: #1e4d91;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: .2rem;
+  cursor: pointer;
+}
+
+.login_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2rem;
+}
+
+.login_bottom_sign {
+  /* border: 2px solid green; */
+  margin: 0 0 0 .6rem;
+  color: #255294;
+  cursor: pointer;
+}
