@@ -3,7 +3,7 @@ import Login from './components/login/Login'
 import Register from './components/register/Register'
 import Landing from './components/landing/landing'
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { AppProvider } from './StateContext'
+import { AppProvider } from './StateContext.jsx'
 
 function App() {
 

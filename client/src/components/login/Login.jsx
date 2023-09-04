@@ -106,7 +106,7 @@ const Login = () => {
                         />
                     </form>
                     <div className="login_bottom">
-                        <span>don't have an account?</span> {" "}
+                        <span>No account?</span> {" "}
                         <div className="login_bottom_sign" onClick={() => navigate("/Register")}>Sign Up</div>
                     </div>
                 </div>
