@@ -28,7 +28,7 @@ const Login = () => {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-            const { data } = await axios.post('http://localhost:3000/Login', { email, password });
+            const { data } = await axios.post('https://otp-verify-backend.onrender.com/Login', { email, password });
 
             if (data.status === 400) {
                 toast.error(data.msg, {
@@ -106,7 +106,7 @@ const Login = () => {
                         />
                     </form>
                     <div className="login_bottom">
-                        don't have an account? {" "}
+                        <span>don't have an account?</span> {" "}
                         <div className="login_bottom_sign" onClick={() => navigate("/Register")}>Sign Up</div>
                     </div>
                 </div>

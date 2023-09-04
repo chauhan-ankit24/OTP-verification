@@ -29,7 +29,7 @@ const SignUp = () => {
     const handleSignUp = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post("http://localhost:3000/Register", {
+            const response = await axios.post("https://otp-verify-backend.onrender.com/Register", {
                 name,
                 email,
                 password,
@@ -68,7 +68,7 @@ const SignUp = () => {
             return;
         }
         try {
-            const response = await axios.post("http://localhost:3000/SendOTP", {
+            const response = await axios.post("https://otp-verify-backend.onrender.com/SendOTP", {
                 email
             });
 
@@ -90,7 +90,7 @@ const SignUp = () => {
         e.preventDefault();
         console.log(email, otp);
         try {
-            const response = await axios.post('http://localhost:3000/VerifyOTP', { email, otp });
+            const response = await axios.post('https://otp-verify-backend.onrender.com/VerifyOTP', { email, otp });
             console.log("res is", response)
             if (response.data === 'OTP verified successfully') {
                 setVerify(true);
