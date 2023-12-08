@@ -7,7 +7,7 @@ export default function Landing() {
   return (
     <div style={{ "width": "100vw", "height": "100vh", "display": "flex", "justifyContent": "center", "alignItems": "center", "flexDirection": "column" }}>
       <h1>welcome</h1>
-      <button onClick={() => navigate('/Login')}> Logout</button>
+      <button onClick={() => navigate('/Login')}> logout </button>
     </div>
   )
 }
